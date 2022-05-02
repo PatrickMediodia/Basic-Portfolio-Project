@@ -1,0 +1,134 @@
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    
+    .projects-container {
+        margin-top: 10px;
+        display: grid;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .skills-container {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+    }
+
+    .skill {
+        padding: 5px 0px 15px 20px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin:auto;
+    }
+
+    .projects-container {
+        margin-top: 10px;
+        display: grid;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-container {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 10px;
+    }
+
+    .skill {
+        padding: 5px 10px 15px 15px;
+    }
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-background-color {
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 8px 8px 3px #aaaaaa;
+}
+
+
+.main-container {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+}
+
+.main-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.main-text {
+    
+}
+
+.main-image-container {
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.main-btn {
+    border-radius: 50%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn-image {
+    width: 25px;
+}
+
+.skill-title {
+    font-size: 20px;
+    overflow-wrap: inherit;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-description {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.project-tag-div {
+    display:flex;
+}
+
+.project-tag {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px 5px 5px;
+}
